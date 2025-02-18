@@ -1,6 +1,7 @@
 let gener=require("generate-password");
 let password=gener.generate({
-    length:10,
-    numbers:true
+    length:15,
+    numbers:true,
+    symbols:true
 });
 console.log(password);
